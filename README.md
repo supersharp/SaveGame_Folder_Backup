@@ -46,13 +46,13 @@ Brief explanation of what each menu option does:
 - Many games and applications store data in the `AppData\Local` folder.
 - This script is designed to back up these folders, but you might want to prevent some of them from being backed up (e.g., web browser caches, application settings that aren't games).
 - This option shows you a list of folders that are currently being backed up and lets you select folders to add to an "ignore list" (also called an exclusion list). Ignored folders will not be backed up.
-- You can input numbers such as: 1,5-6,16-20 (This will select folders 1,5,6,16,17,18,19,20).
+- You can input numbers such as: `1,5-6,16-20` (This will select folders `1,5,6,16,17,18,19,20` ).
 
 **Option 5: Remove AppData folders from ignore list**
 -----------------------------------------------------
 - This option shows you a list of all the folders you are currently ignoring.
 - You can select folders from this list to remove them from the ignore list. Once removed, they will be included in the next backup.
-- You can input numbers such as: 1,5-6,16-20 (This will select folders 1,5,6,16,17,18,19,20).
+- You can input numbers such as: `1,5-6,16-20` (This will select folders `1,5,6,16,17,18,19,20` ).
 
 **Option 6: Exit**
 ------------------
