@@ -9,9 +9,9 @@ Helps to create a scheduled or manual backup of common Save Game Folder location
 - `%localappdata%`
 
 **Features:**
-Allows adding folders to ignore list to not backup from %localappdata%
-Ability to create a Scheduled Task to run every logon to backup the folders
-Logs stored at: C:\Save_Game_Backup_Logs
+- Allows adding folders to ignore list to not backup from `%localappdata%`
+- Ability to create a Scheduled Task to run every logon to backup the folder
+- Logs stored at: `C:\Save_Game_Backup_Logs`
 
 **How to Run the Save Game Backup Script**
 =======================================
