@@ -1,3 +1,6 @@
+
+<img width="979" height="512" alt="pwsh_oC3t6eJZ3i" src="https://github.com/user-attachments/assets/e623658a-3177-4b0b-b9a4-43306f0afdd0" />
+
 # SaveGame_Folder_Backup
 Helps to create a scheduled or manual backup of common Save Game Folder locations
 
