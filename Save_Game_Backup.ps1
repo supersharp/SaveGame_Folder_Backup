@@ -191,7 +191,7 @@ function New-ScriptShortcut {
     $batPath = Join-Path (Split-Path $ScriptPath) "Run_Save_Game_Backup.bat"
     $batContent = @"
 @echo off
-powershell.exe -ExecutionPolicy Bypass -NoProfile -File "$ScriptPath"
+powershell.exe -ExecutionPolicy Bypass -NoProfile -File ".\Save_Game_Backup.ps1"
 Exit
 "@
     $batContent | Set-Content -Path $batPath -Force
@@ -1236,3 +1236,4 @@ else {
 
 
 # --- End of Script ---
+
